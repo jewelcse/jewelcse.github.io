@@ -25,6 +25,20 @@ body{
     background-color: rgb(5, 30, 36); 
     opacity: 1;
 }
+
+/* .sidebar{
+    position: relative;
+    background-color: rgb(5, 30, 36);
+    z-index: -1;
+}
+.sidebar:before{
+    position : absolute;
+    content : " ";
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+
 .sidebar h1{
     display: block;
     padding: 10px 20px;
