@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+/* @font-face {
+    src: url(assets/font/Hitch-hike.otf);
+} */
 
 body{
     font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,33 +14,49 @@ body{
 
 .sidebar{
     position: fixed;
-    padding-top: 50px;
-    padding-left: 20px;
+    padding: 20px;
     top: 0;
     left: 0;
     bottom: 0;
     width: 25%;
     background-color: rgb(5, 30, 36);
+    
+}
+.sidebar h1{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik';
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
 }
 
-.sidebar .profile-photo{
+.sidebar p{
     display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rubik';
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+}
+.profile-photo{
+    margin-top: 50px;
     width: 100%;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+    padding: 10px; 
 }
 
-.sidebar .profile-photo img{
-    
-    margin-bottom: 30px;
-    margin-top: 30px;
+.profile-photo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     border-radius: 50%;
-    text-align: center; 
-
-   
-
-
 }
 
 .side-nav a{
@@ -55,16 +74,7 @@ body{
 .sidebar .current{
     border-bottom: 1px dotted;
 }
-.sidebar h1{
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Rubik';
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 24px;
-}
+
 
 .side-nav a:hover{
     margin-left: 20px;
@@ -73,11 +83,14 @@ body{
 }
 
 .main-content{
-    background-color: red;
+    background-color: rgb(9, 35, 41);
+    padding-top: 100px;
+    padding-left: 50px;
     top: 0;
     right: 0;
     bottom: 0;
     position: fixed;
     width: 75%;
     margin-left: 10px;
+    color: #fff;
 }
